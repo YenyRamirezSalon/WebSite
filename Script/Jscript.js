@@ -17,4 +17,13 @@ $('.iconreservar').on('click', function () {
 
 })
 
+$('.iconredes').on('click',function(){
+    var elemnt = $(this).attr('id')
+    var url
+    if (elemnt == 'ifacebook'){
+        url = 'https://www.facebook.com/Makeupyeny'
+    }
+
+    $(location).attr('href', url)
+})
 
