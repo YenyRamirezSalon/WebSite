@@ -268,6 +268,9 @@
   width: 25px;
   height: 25px;
 }
+.iconredes{
+	cursor:pointer;
+}
 
 .row {
   text-align: center;
