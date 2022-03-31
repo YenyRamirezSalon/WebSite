@@ -305,6 +305,9 @@
   .tservicios {
     width: 400px;
   }
+.tservicios tr td{
+Font-size:11px;
+}
   .footer {
     font-size: 12px;
   }
