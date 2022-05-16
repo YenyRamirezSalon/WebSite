@@ -137,6 +137,39 @@
     transform: translateX(-500%);
   }
 }
+
+/* Slile producto */
+
+@keyframes slide-portafolio {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+
+  55% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+
+}
 .slider {
   position: relative;
 }
@@ -174,6 +207,20 @@
   
 }
 
+.slide .img-producto{
+  width: 35%;
+  height: 35%;
+  margin: auto;
+	vertical-align: top;
+  /* border-radius: 50%; */
+  
+}
+
+.img-producto{
+  width: 25%;
+  height: 25%;
+}
+
 .cont-subtitulo {
   width: 100%;
   text-align: center;
@@ -188,11 +235,12 @@
 }
 /* SERVICIOS */
 .tservicios {
-  width: 50%;
+  width: 40%;
   /* max-width: 550px; */
   min-width: 400px;
   margin: auto;
   border-collapse: collapse;
+  border:1px solid lightgrey;
 }
 
 .textcenter {
@@ -205,10 +253,11 @@
 }
 
 .tservicios tr th {
-  background-color: black;
-  color: white;
+  background-color: rgb(216, 200, 103);
+  color: Black;
   font-weight: 400;
   padding: 5px;
+  width: 33.333%;
 }
 .tservicios tr td {
   padding: 5px;
@@ -271,9 +320,7 @@
 .iconredes{
   cursor: pointer;
 }
-.row {
-  text-align: center;
-}
+
 
 .footer .copyright {
   display: block;
